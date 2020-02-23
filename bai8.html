@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo bảng</title>
+    <style>
+        body{
+            width: 70%;
+            margin: auto;
+            background-color: #FFEDCA;
+        }
+        h1{
+            color: #cc6600;
+            margin-left: 360px;
+            margin-top: 80px;
+            letter-spacing: 4px;
+        }
+        img{
+            width: 300px;
+            float: left;
+            margin-top: 40px;
+        }
+        table{
+            margin-top: 50px;
+        }
+        table#t01 tr:nth-child(even) {
+            background-color: whitesmoke;
+        }
+        table#t01 tr:nth-child(odd) {
+            background-color: #FFEDCA;
+        }
+        table#t01 th {
+            background-color: #CC6600,;
+            color: white;
+        }
+        tr> td:first-child {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <img src="./image/monngon.jpg" alt="món ngon">
+    <h1>Các món ngon Hà Nội</h1>
+    <table id="t01" border="1px" cellspacing="0px" cellpadding="8px" width="500px">
+        <tr style="background-color: #CC6600; color: white; border-collapse: collapse;">
+            <th>STT</th>
+            <th>Tên món ăn</th>
+        </tr>
+        <tr>
+            <td align="center">1</td>
+            <td>Bánh cuốn Thanh Trì</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Xôi Hà Nội</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Chả cá Lã Vọng</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Cháo Cóc</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Bánh gai Ninh Giang</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Bún thang Hà Nội</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Canh Lằng</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Vịt quay Lạng Sơn</td>
+        </tr>
+    </table>
+</body>
+</html>
